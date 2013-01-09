@@ -635,3 +635,8 @@ font-weight: bold;
 display: inline-block;
 margin-right: 10px;
 }
+
+/* addthis */
+div.addthis-content-footer {
+display: none;
+}
