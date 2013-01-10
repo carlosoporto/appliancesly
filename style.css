@@ -170,6 +170,7 @@ div[id*='attachment_']{
 #main article img{
 	height: auto;
 	max-width: 100%;
+	padding: 15px 0;
 }
 
 img.alignleft{
@@ -429,7 +430,7 @@ li.previous a:hover:before{
 /* widget styles */
 
 .widget{
-	margin-top: 18px;
+	margin-top: 0px;
 }
 
 .widgettitle{
@@ -556,7 +557,7 @@ blockquote.pull-left{
 	}
 	
 	.widget_search input{
-		width: 230px;
+		width: 185px;
 	}
 	
 	.blog .hero-unit{
@@ -587,7 +588,7 @@ blockquote.pull-left{
 	}
 	
 	.widget_search input{
-		width: 209px;
+		width: 185px;
 	}
 	
 	.comment .vcard .comment-text{
@@ -604,6 +605,7 @@ border: 1px solid #ddd;
 width: 268px;
 background-color: #fff;
 box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+margin-top: 18px;
 }
 
 .facebook_follow {
