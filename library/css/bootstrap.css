@@ -2256,7 +2256,7 @@ table [class*=span],
   outline: 0;
 }
 .caret {
-  display: inline-block;
+  display: none;
   width: 0;
   height: 0;
   vertical-align: top;
@@ -3147,6 +3147,7 @@ input[type="submit"].btn.btn-mini {
   margin-left: 0;
   margin-bottom: 20px;
   list-style: none;
+  font-size: 13px;
 }
 .nav > li > a {
   display: block;
@@ -3663,7 +3664,7 @@ input[type="submit"].btn.btn-mini {
   left: 0;
   display: block;
   float: left;
-  margin: 0 10px 0 0;
+  margin: 0 10px 0 20px;
 }
 .navbar .nav.pull-right {
   float: right;
@@ -3674,7 +3675,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 10px 15px 10px;
+  padding: 10px 10px 10px;
   color: #777777;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
@@ -3827,6 +3828,15 @@ input[type="submit"].btn.btn-mini {
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
 }
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;    
+}
+
+.navbar .dropdown-menu {
+ margin-top: 0px;
+}
+
 .navbar-inverse {
   color: #999999;
 }
