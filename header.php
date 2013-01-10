@@ -97,7 +97,7 @@
 					<div class="navbar-inner">
 						<div class="container-fluid nav-container">
 							<nav role="navigation">
-								<a class="brand" id="logo" href="/" title="Appliancesly">          <img src="http://se5revolution.s3.amazonaws.com/uploads/994/36435.png" alt="Appliancesly"></a>
+								<a class="brand" id="logo" href="/" title="Appliancesly">          <img src="http://se5revolution.s3.amazonaws.com/uploads/994/36642.png" alt="Appliancesly"></a>
 								
 								<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 							        <span class="icon-bar"></span>

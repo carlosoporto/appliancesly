@@ -543,7 +543,7 @@ blockquote.pull-left{
 	}
 	
 	.navbar-form, .navbar-search {
-		margin-top: 6px;
+		margin-top: 4px;
 		margin-bottom: 0;
 	}
 	
@@ -582,8 +582,8 @@ blockquote.pull-left{
 	}
 	
 	#s{
-		width: 210px;
-		margin-bottom: 6px;
+		width: 110px;
+		margin: 0 7px 6px 0;
 	}
 	
 	.widget_search input{
