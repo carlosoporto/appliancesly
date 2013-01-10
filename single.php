@@ -37,9 +37,7 @@
 							<?php } ?>
 							
 						</footer> <!-- end article footer -->
-					
-					</article> <!-- end article -->
-					
+						
 						<!-- AddThis Button BEGIN -->
 						<div class="addthis_toolbox addthis_default_style ">
 						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
@@ -51,6 +49,8 @@
 						</div>
 						<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ecf3ba5af64e38"></script>
 						<!-- AddThis Button END -->
+					
+					</article> <!-- end article -->
 						
 						<!-- AddThis Button BEGIN -->
 						<div class="addthis_toolbox addthis_floating_style addthis_counter_style" style="left:48px;top:180px;">
