@@ -584,7 +584,7 @@ blockquote.pull-left{
 	
 	#s{
 		width: 110px;
-		margin: 0 7px 6px 0;
+		margin: 0;
 	}
 	
 	.widget_search input{

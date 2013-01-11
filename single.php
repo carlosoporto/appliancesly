@@ -9,10 +9,10 @@
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 						
 						<header>
-						
-							<?php the_post_thumbnail( 'wpbs-featured' ); ?>
 							
 							<div class="page-header"><h1 class="single-title" itemprop="headline"><?php the_title(); ?></h1></div>
+						
+							<?php the_post_thumbnail( 'wpbs-featured' ); ?>
 							
 							<p class="meta"><?php _e("Posted on", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> <?php _e("by", "bonestheme"); ?> <?php the_author(); ?> <span class="amp"></span> <?php _e("in", "bonestheme"); ?> <?php the_category(', '); ?></p>
 						
