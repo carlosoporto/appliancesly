@@ -40,6 +40,11 @@ get_header(); ?>
 							      </a>
 							</div>
 							
+							<?php if ( !empty($post->post_excerpt) ) { ?> 
+							<p ><?php echo get_the_excerpt(); ?></p>
+							<?php } ?>
+							
+							<div class ="social_buttons">
 							<!-- AddThis Button BEGIN -->
 							<div class="addthis_toolbox addthis_default_style ">
 							<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
@@ -51,6 +56,7 @@ get_header(); ?>
 							</div>
 							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ecf3ba5af64e38"></script>
 							<!-- AddThis Button END -->
+							</div>
 							
 							<!-- To display thumbnail of previous and next image in the photo gallery -->
 							<ul id="gallery-nav" class="clearfix">
@@ -65,6 +71,7 @@ get_header(); ?>
 						<a class="addthis_button_facebook_like" fb:like:layout="box_count"></a>
 						<a class="addthis_button_tweet" tw:count="vertical"></a>
 						<a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
+						<a class="addthis_button_pinterest_pinit" pi:pinit:layout="vertical"></a>
 						<a class="addthis_counter"></a>
 						</div>
 						<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ecf3ba5af64e38"></script>

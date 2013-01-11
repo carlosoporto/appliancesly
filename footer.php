@@ -11,14 +11,10 @@
 		            <?php endif; ?>
 		          </div>
 					
-					<nav class="clearfix">
-						<?php bones_footer_links(); // Adjust using Menus in Wordpress Admin ?>
-					</nav>
-					
-					<p class="pull-right">More in the network: <a href="http://jefefinal.com" id="JefeFinal" title="JefeFinal - Never Stop Playing">JefeFinal</a></p>
-			
 					<p class="attribution">Copyright &copy; 2013 Appliancesly · All rights reserved</p>
-				
+					
+					<p class="pull-right"><?php bones_footer_links(); // Adjust using Menus in Wordpress Admin ?> More in the network: <a href="http://jefefinal.com" id="JefeFinal" title="JefeFinal - Never Stop Playing">JefeFinal</a></p>
+									
 				</div> <!-- end #inner-footer -->
 				
 			</footer> <!-- end footer -->

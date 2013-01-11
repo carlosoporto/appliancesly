@@ -17,6 +17,8 @@
 				
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
+		<meta name="msvalidate.01" content="0D02020CE7F6FB6DFCA6C5D26BC521D0" />
+		
 		<!-- icons & favicons -->
 		<!-- For iPhone 4 -->
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/library/images/icons/h/apple-touch-icon.png">
@@ -84,6 +86,27 @@
 			} // end if search bar is used
 
 		?>
+			
+			<meta property="og:locale" content="en_US">
+			<?php if (have_posts()):while(have_posts()):the_post(); endwhile; endif;?>
+			<!-- the default values -->
+			<meta property="fb:app_id" content="524504710906502" />
+			<meta property="fb:admins" content="538290180" />
+
+			<!-- if page is content page -->
+			<?php if (is_single()) { ?>
+			<meta property="og:url" content="<?php the_permalink() ?>"/>
+			<meta property="og:title" content="<?php single_post_title(''); ?>" />
+			<meta property="og:description" content="<?php echo strip_tags(get_the_excerpt($post->ID)); ?>" />
+			<meta property="og:type" content="article" />
+			<meta property="og:image" content="<?php if (function_exists('wp_get_attachment_thumb_url')) {echo wp_get_attachment_thumb_url(get_post_thumbnail_id($post->ID)); }?>" />
+
+			<!-- if page is others -->
+			<?php } else { ?>
+			<meta property="og:site_name" content="<?php bloginfo('name'); ?>" />
+			<meta property="og:description" content="<?php bloginfo('description'); ?>" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image" content="http://se5revolution.s3.amazonaws.com/uploads/994/37697.png" /> <?php } ?>
 				
 	</head>
 	
@@ -123,6 +146,12 @@
 			
 			</div> <!-- end #inner-header -->
 		
+		<link href="https://plus.google.com/106683697398935599366" rel="publisher">
+		
+		<link rel="alternate" type="application/rss+xml" title="Appliancesly » Feed" href="http://appliancesly.com/feed/">
+		
+		<link rel="alternate" type="application/rss+xml" title="Appliancesly » Comments Feed" href="http://appliancesly.com/comments/feed/">
+		
 		</header> <!-- end header -->
 		
 		<div id="fb-root"></div>
@@ -133,5 +162,5 @@
 		  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=524504710906502";
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
-		
+				
 		<div class="container-fluid">
