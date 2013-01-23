@@ -16,7 +16,7 @@
 		</title>
 				
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
+		<script type="text/javascript">window.google_analytics_uacct = "UA-20273659-21";</script>
 		<meta name="msvalidate.01" content="0D02020CE7F6FB6DFCA6C5D26BC521D0" />
 		
 		<!-- icons & favicons -->

@@ -4,11 +4,12 @@
 			
 				<div id="main" class="span8 clearfix" role="main">
 				
-					<div class="page-header">
+					<div class="category-header">
 					<?php if (is_category()) { ?>
 						<h1 class="archive_title h2">
 							<span><?php _e("", "bonestheme"); ?></span> <?php single_cat_title(); ?>
 						</h1>
+						<?php echo category_description( $category_id ); ?> 
 					<?php } elseif (is_tag()) { ?> 
 						<h1 class="archive_title h2">
 							<span><?php _e("", "bonestheme"); ?></span> <?php single_tag_title(); ?>

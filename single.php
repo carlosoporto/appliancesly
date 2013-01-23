@@ -51,13 +51,17 @@
 						<!-- AddThis Button END -->
 					
 					</article> <!-- end article -->
+					
+					<div class="category-header">
+					<?php previous_post('&laquo; %', '', 'yes'); ?>
+					| <?php next_post('% &raquo; ', '', 'yes'); ?>
+					</div>
 						
 						<!-- AddThis Button BEGIN -->
-						<div class="addthis_toolbox addthis_floating_style addthis_counter_style" style="left:48px;top:180px;">
+						<div class="addthis_toolbox addthis_floating_style addthis_counter_style" style="left:38px;top:180px;">
 						<a class="addthis_button_facebook_like" fb:like:layout="box_count"></a>
 						<a class="addthis_button_tweet" tw:count="vertical"></a>
 						<a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
-						<a class="addthis_button_pinterest_pinit" pi:pinit:layout="vertical"></a>
 						<a class="addthis_counter"></a>
 						</div>
 						<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ecf3ba5af64e38"></script>
