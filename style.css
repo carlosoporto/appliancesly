@@ -738,3 +738,8 @@ div.addthis-content-footer {
 	width: 84px;
 	background: url("http://appliancesly.com/wp-content/themes/appliancesly/images/amazon_logo_light.png") no-repeat;
 }
+
+/* adsense */
+#ads-header {
+	text-align: center;
+}

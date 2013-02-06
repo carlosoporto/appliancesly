@@ -162,5 +162,17 @@
 		  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=524504710906502";
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
-				
+		
+		<div id="ads-header"> <script type="text/javascript"><!--
+		google_ad_client = "ca-pub-8061270876469148";
+		/* Appliancesly - Header */
+		google_ad_slot = "3863988445";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script> </div>		
+		
 		<div class="container-fluid">
